@@ -8,6 +8,8 @@ import CardSlider from "./slider";
 import { useEffect, useRef, useState, useCallback } from "react";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import { getImagePrefix } from "@/utils/utils";
+import { getImagePrefix } from "@/utils/getImagePrefix";
+
 
 
 const Hero = () => {
